@@ -1,5 +1,4 @@
 boolean MuevoVertical(){
-  
  if (mouseX>=600 && mouseX<=800){
   return true;
   }else{
@@ -7,7 +6,6 @@ boolean MuevoVertical(){
  }
 }
  void DiagonalVer(int cant, float rotar){
-   
   for (int e=0; e<cant; e++) {
   for (int i=0; i<cant; i++) {
     
