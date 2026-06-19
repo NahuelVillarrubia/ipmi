@@ -11,29 +11,30 @@ tam=width/cant;
 }
 
 void draw(){
+  
   background(255);
   strokeWeight(3);
   
-  if (MuevoVertical() == true) {
-    RotacionV += 0.05;
-  }
+ if (MuevoVertical() == true) {
+  RotacionV +=0.05;
+}
  DiagonalVer(20, RotacionV);
  
  if (MuevoHorizontal() == true) {
-    RotacionH -= 0.05;
-  }
-   DiagonalHoriz(20, RotacionH);
+ RotacionH -=0.05;
+}
+ DiagonalHoriz(20, RotacionH);
   
-image(ImReferencia,0,0,400,400);
+ image(ImReferencia,0,0,400,400);
 }
 void mouseClicked(){
   Reinicio();
 }
 void Reinicio(){
- cant=20;
- tam=0;
+ cant = 20;
+ tam = width/cant;
  RotacionV = 0;
- RotacionH =0;
+ RotacionH = 0;
 }
-  
+
   
