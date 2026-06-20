@@ -11,16 +11,16 @@ void draw(){
   
   background(255);
   strokeWeight(3);
-  
+
+DiagonalVer(20, RotacionV);
  if (MuevoVertical() == true) {
   RotacionV +=0.05;
 }
- DiagonalVer(20, RotacionV);
- 
+
+ DiagonalHoriz(20, RotacionH);
  if (MuevoHorizontal() == true) {
  RotacionH -=0.05;
 }
- DiagonalHoriz(20, RotacionH);
   
  image(ImReferencia,0,0,400,400);
 }
