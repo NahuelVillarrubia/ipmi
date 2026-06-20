@@ -1,5 +1,4 @@
 PImage ImReferencia;
-int cant=20;
 float RotacionV = 0;
 float RotacionH =0;
 
@@ -29,7 +28,6 @@ void mouseClicked(){
   Reinicio();
 }
 void Reinicio(){
- cant = 20;
  RotacionV = 0;
  RotacionH = 0;
 }
