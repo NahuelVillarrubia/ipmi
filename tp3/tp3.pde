@@ -1,13 +1,11 @@
 PImage ImReferencia;
 int cant=20;
-int tam;
 float RotacionV = 0;
 float RotacionH =0;
 
 void setup(){
   size(800,400);
 ImReferencia=loadImage("27.jpg");
-tam=width/cant;
 }
 
 void draw(){
@@ -32,7 +30,6 @@ void mouseClicked(){
 }
 void Reinicio(){
  cant = 20;
- tam = width/cant;
  RotacionV = 0;
  RotacionH = 0;
 }
