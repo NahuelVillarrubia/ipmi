@@ -1,3 +1,5 @@
+//https://youtu.be/iAIcmPMNVC4?si=gV6UVsd0GlW6hPEe
+
 PImage ImReferencia;
 float RotacionV = 0;
 float RotacionH =0;
