@@ -1,3 +1,5 @@
+//https://youtu.be/IgnsmLnjqoE?si=pZ1KUjR_0orE5Ngi
+
 PImage ImReferencia;
 int cant= 20;
 float RotacionV = 0;
